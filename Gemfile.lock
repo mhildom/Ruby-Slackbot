@@ -1,0 +1,114 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (6.1.3)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+      zeitwerk (~> 2.3)
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    async (1.28.9)
+      console (~> 1.10)
+      nio4r (~> 2.3)
+      timers (~> 4.1)
+    async-io (1.30.2)
+      async (~> 1.14)
+    async-websocket (0.8.0)
+      async-io
+      websocket-driver (~> 0.7.0)
+    buftok (0.2.0)
+    concurrent-ruby (1.1.8)
+    console (1.10.1)
+      fiber-local
+    domain_name (0.5.20190701)
+      unf (>= 0.0.5, < 1.0.0)
+    equalizer (0.0.11)
+    faraday (1.3.0)
+      faraday-net_http (~> 1.0)
+      multipart-post (>= 1.2, < 3)
+      ruby2_keywords
+    faraday-net_http (1.0.1)
+    faraday_middleware (1.0.0)
+      faraday (~> 1.0)
+    ffi (1.15.0-x64-mingw32)
+    ffi-compiler (1.0.1)
+      ffi (>= 1.0.0)
+      rake
+    fiber-local (1.0.0)
+    gli (2.20.0)
+    hashie (4.1.0)
+    http (4.4.1)
+      addressable (~> 2.3)
+      http-cookie (~> 1.0)
+      http-form_data (~> 2.2)
+      http-parser (~> 1.2.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    http-form_data (2.3.0)
+    http-parser (1.2.3)
+      ffi-compiler (>= 1.0, < 2.0)
+    http_parser.rb (0.6.0)
+    i18n (1.8.9)
+      concurrent-ruby (~> 1.0)
+    memoizable (0.4.2)
+      thread_safe (~> 0.3, >= 0.3.1)
+    minitest (5.14.4)
+    multipart-post (2.1.1)
+    naught (1.1.0)
+    nio4r (2.5.7)
+    pp (0.1.0)
+      prettyprint
+    prettyprint (0.1.0)
+    public_suffix (4.0.6)
+    rake (13.0.3)
+    ruby2_keywords (0.0.4)
+    simple_oauth (0.3.1)
+    slack-ruby-bot (0.16.1)
+      activesupport
+      hashie
+      slack-ruby-client (>= 0.14.0)
+    slack-ruby-client (0.17.0)
+      faraday (>= 1.0)
+      faraday_middleware
+      gli
+      hashie
+      websocket-driver
+    thread_safe (0.3.6)
+    timers (4.3.3)
+    twitter (7.0.0)
+      addressable (~> 2.3)
+      buftok (~> 0.2.0)
+      equalizer (~> 0.0.11)
+      http (~> 4.0)
+      http-form_data (~> 2.0)
+      http_parser.rb (~> 0.6.0)
+      memoizable (~> 0.4.0)
+      multipart-post (~> 2.0)
+      naught (~> 1.0)
+      simple_oauth (~> 0.3.0)
+    tzinfo (2.0.4)
+      concurrent-ruby (~> 1.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.7)
+    websocket-driver (0.7.3)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.5)
+    yaml (0.1.1)
+    zeitwerk (2.4.2)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  async-websocket (~> 0.8.0)
+  pp
+  slack-ruby-bot
+  slack-ruby-client
+  twitter
+  yaml
+
+BUNDLED WITH
+   2.2.3
